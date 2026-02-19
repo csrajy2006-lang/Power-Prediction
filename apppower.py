@@ -12,8 +12,8 @@ import pandas as pd
 import joblib
 
 # Load model & scaler
-model = joblib.load("solar_power_model.pkl")
-scaler = joblib.load("solar_scaler.pkl")
+model = joblib.load("solar_power.pkl")
+scaler = joblib.load("solar.pkl")
 
 st.title("🌞 Solar Power Prediction App")
 
